@@ -45,7 +45,7 @@
 
 static void compile_policy(Symbol* k) {
 #ifdef TARGET_ARCH_aarch64
-  if (VM_Version::is_hisi_enabled() && !SharedRuntime::_opt_for_aarch64) {
+  if ((VM_Version::is_hisi_enabled() || VM_Version::is_phytium_enable()) && !SharedRuntime::_opt_for_aarch64) {
     unsigned char name[19];
     strncpy((char*)name, k->as_C_string(), 18);
     name[18] = '\0';

@@ -92,6 +92,7 @@ public:
     CPU_MARVELL   = 'V',
     CPU_INTEL     = 'i',
     CPU_APPLE     = 'a',
+    CPU_PHYTIUM   = 'p',
   };
 
   enum Feature_Flag {
@@ -123,6 +124,13 @@ public:
   static bool is_hisi_enabled() {
     if (_cpu == CPU_HISILICON && (_model == 0xd01 || _model == 0xd02 || _model == 0xd03 ||
                            _model == 0xd22 || _model == 0xd45)) {
+      return true;
+    }
+    return false;
+  }
+
+  static bool is_phytium_enable() {
+    if (_cpu == CPU_PHYTIUM) {
       return true;
     }
     return false;
