@@ -4,7 +4,7 @@
 
 二进制可以从[这里](https://www.hikunpeng.com/developer/devkit/compiler/jdk)下载。
 
-用户指南和新特性, 请见[wiki](https://gitee.com/openeuler/bishengjdk-11/wikis/Home?sort_id=2879167)
+用户指南和新特性, 请见[wiki](https://gitcode.com/openeuler/bishengjdk-11/wiki/Home.md)
 
 ## 平台支持
 
@@ -12,7 +12,7 @@
 
 ## 源码构建说明
 
-毕昇JDK源码构建说明，请见[wiki](https://gitee.com/openeuler/bishengjdk-11/wikis/毕昇JDK%2011%20源码构建说明?sort_id=3919527)
+毕昇JDK源码构建说明，请见[wiki](https://gitcode.com/openeuler/bishengjdk-11/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3%2F%E6%AF%95%E6%98%87JDK%2011%20%E6%BA%90%E7%A0%81%E6%9E%84%E5%BB%BA%E8%AF%B4%E6%98%8E.md)
 
 ## License
 
@@ -20,7 +20,7 @@
 
 ## 安装指导
 
-请见 [安装指南](https://gitee.com/openeuler/bishengjdk-11/wikis/%E6%AF%95%E6%98%87JDK%2011%20%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97?sort_id=2891160)。
+请见 [安装指南](https://gitcode.com/openeuler/bishengjdk-11/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3%2F%E6%AF%95%E6%98%87JDK11_%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97.md)。
 
 ## 如何提交贡献
 
