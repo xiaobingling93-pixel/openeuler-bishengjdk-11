@@ -122,6 +122,8 @@ define_pd_global(intx, InlineSmallCode,          1000);
   product(int, SoftwarePrefetchHintDistance, -1,                        \
           "Use prfm hint with specified distance in compiled code."     \
           "Value -1 means off.")                                        \
-          range(-1, 4096)
+          range(-1, 4096)                                               \
+  product(bool, UseStlrForRelease, false,                               \
+          "Use stlr instead of dmb ish + str for release stores")       \
 
 #endif // CPU_AARCH64_VM_GLOBALS_AARCH64_HPP
